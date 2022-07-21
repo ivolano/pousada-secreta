@@ -1,0 +1,307 @@
+body{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Aplica borda a todos os elementos para visializar o layout dos boxes*/
+/* 
+* {
+    border: 1px solid tomato;
+} 
+*/
+.topo {
+  
+    background-color: #fff;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+
+.limita-topo {
+    height: 60px;
+    width: 1024px;
+    margin: 0 auto;
+    
+}
+
+.relativo {
+    position: relative;
+}
+
+.link-titulo {
+    position: absolute;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.link-titulo a {
+    text-decoration: none;
+    color: black;
+}
+
+.link-titulo span {
+    color: rgb(46, 172, 255);
+}
+
+.links-topo {
+    position: absolute;
+    right: 0;
+    margin-top: 20px;
+}
+
+.link-topo {
+    margin: 0 0 0 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
+.banner-principal {
+    background-image: url(/assets/img-fundo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 950px;
+    position: relative;
+    
+}
+
+.banner-quartos {
+    background-image: url(/assets/img-fundo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    
+}
+
+
+.card-banner {
+    text-align: center;
+    width: 35%;
+    background-color: rgba(0, 138, 115, 0.637);
+    height: 25%;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.card-banner h1 {
+    font-weight: bold;
+    font-size: 50px;
+    padding: 10px;
+}
+
+.card-banner p {
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.secao {
+    height: 200px;
+    text-align: center;
+    line-height: 42px;
+    margin: 90px auto 50px auto;
+}
+
+.quartos {
+    width: 1024px;
+    margin: 0 auto;
+    position: relative;
+    height: 400px;
+}
+
+.solteiro {
+    width: 33%;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    
+}
+
+.solteiro img {
+    width: 90%;
+    margin-top: 10px;
+}
+
+
+.quartos-link {
+    text-decoration: none; 
+    color: black;
+}
+
+.quartos-paragrafo {
+    width: 310px;
+    margin: 30px auto;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgb(0, 168, 154);
+}
+.casal {
+    width: 33%;
+    position: absolute;
+    left: 33%;
+    text-align: center;
+}
+
+.casal img {
+    width: 90%;
+    margin-top: 10px;
+}
+
+.familia {
+    width: 33%;
+    position: absolute;
+    right: 0;
+    text-align: center;
+}
+
+.familia img {
+    width: 90%;
+    margin-top: 10px;
+    
+}
+
+
+.mapa iframe {
+    width: 100%;
+}
+
+.sobre {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1920px;
+
+}
+
+.descricao-pousada {
+    margin: 0 auto;
+    height: 150px;
+    display: flex;
+    width: 700px;
+    
+}
+
+.sobre-img {
+    width: 150px;
+    flex: 1 -1 0;
+   
+
+}
+
+.sobre-img img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.descricao-quartos {
+    
+    text-align: left;
+    flex: 2 1 0;
+    line-height: 28px;
+    padding: 10px;
+}
+
+.rodape {
+    text-align: center;
+    background-color: rgb(79, 190, 153);
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+    
+}
+
+.itens-rodape {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+
+.contato {
+    min-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50px;
+    
+}
+
+.contato p {
+    display: inline;
+}
+
+.contato a p {
+    color: #fff;
+    padding: 5px;
+}
+
+.contato a {
+    text-decoration: none;
+    display: flex;
+}
+
+.contato a img {
+    height: 100%;
+
+}
+
+.icones {
+    padding-right: 10px;
+}
+
+a .icones {
+    margin-top: 15px;
+}
+
+.copy {
+    border-top: 1px solid rgba(0, 0, 0, 0.062);
+}
+
+
+#titulo-quarto {
+    margin-bottom: -30px;
+}
+
+.imagens-quarto {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagens-quarto img {
+    width: 31%;
+    object-fit: cover;
+}
+
+
+.info-quarto {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.info-quarto ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 70px;
+}
+
+.limita-topo h2 {
+    font-size: 42px;
+}
+
+.secao h2 {
+    font-size: 38px;
+}
